@@ -15,7 +15,6 @@ const Navbar = () => (
   <nav className={`${styles.xPaddings} py-8 relative`}>
     <motion.div
       variants={navVariants}
-      initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.2 }}
       className="absolute w-[50%] inset-0 gradient-01"
@@ -23,7 +22,6 @@ const Navbar = () => (
 
     <motion.div
       variants={navVariants}
-      initial="hidden"
       whileInView="show"
       className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
     >
