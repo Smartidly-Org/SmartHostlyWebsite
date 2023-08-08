@@ -3,12 +3,29 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import styles from "../styles";
-import planet9 from "../public/planet-09.png";
-import stamp from "../public/stamp.png";
+import planet9 from "../public/Simss.png";
+import stamp from "../public/stamp1.png";
 import { fadeIn, staggerContainer, zoomIn } from "../utils/motion";
+import { TypingText, TitleText, NewFeatures } from "../components";
+
 
 const Feedback = () => (
   <section className={`${styles.paddings} relative z-10`}>
+  <motion.div
+      variants={staggerContainer}
+      initial="hidden"
+      whileInView="show"
+      className={`${styles.innerWidth} flex mx-auto w-full lg:flex-row flex-col gap-8`}
+    >
+      <motion.div
+        variants={fadeIn("right", "tween", 0.2, 1)}
+        className="flex-[0.75] flex justify-center flex-col"
+      >
+  <TypingText title="| What our partners says about us?" />
+        <TitleText title={<>Smarthostly is your event superpower!!</>} />
+        <br></br>
+        </motion.div>
+        </motion.div>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -16,11 +33,15 @@ const Feedback = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto lg:flex-row flex flex-col gap-6`}
     >
+     
       <motion.div
         variants={fadeIn("right", "tween", 0.2, 1)}
         className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6a6a6a] relative "
       >
+      
         <div className="feedback-gradient" />
+
+       
 
         <div>
           <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
@@ -43,7 +64,7 @@ const Feedback = () => (
           src={planet9}
           alt="planet-09"
           placeholder="blur"
-          className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
+          className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px] ml-[40px]"
         />
 
         <motion.div

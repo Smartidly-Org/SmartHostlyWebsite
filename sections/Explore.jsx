@@ -17,12 +17,12 @@ const Explore = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <TypingText title="| The World" textStyles="text-center" />
+        <TypingText title="| What can you use SmartHostly for" textStyles="text-center" />
         <TitleText
           title={
             <>
-              Choose the world you want <br className="md:block hidden" /> to
-              explore{" "}
+              Choose the event you want <br className="md:block hidden" /> to
+              host{" "}
             </>
           }
           textStyles="text-center"
@@ -38,6 +38,14 @@ const Explore = () => {
             />
           ))}
         </div>
+        <TitleText
+          title={
+            <>
+              We have the solution custom made for you !!
+            </>
+          }
+          textStyles="text-center"
+        />
       </motion.div>
     </section>
   );

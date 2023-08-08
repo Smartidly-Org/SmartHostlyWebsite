@@ -33,13 +33,13 @@ const Navbar = () => (
         className="w-[24px] h-[24px] object-contain"
       /> */}
 
-      <h2 className="font-extrabold text-[24px] leading-[30px] text-white ">
+      <div className="font-bold text-[24px] leading-[30px] text-white ">
         <Image
         src={logo}
         alt="logo-Icon"
         className="w-[80%] h-[80%] object-contain"
         />
-      </h2>
+      </div>
       {/* <Image
         src={menu}
         alt="menu-Icon"

@@ -1,8 +1,8 @@
-import Planet_1 from "../public/planet-01.png";
-import Planet_2 from "../public/planet-02.png";
-import Planet_3 from "../public/planet-03.png";
-import Planet_4 from "../public/planet-04.png";
-import Planet_5 from "../public/planet-05.png";
+import Planet_1 from "../public/Festival.jpg";
+import Planet_2 from "../public/Movie.jpg";
+import Planet_3 from "../public/Party.jpg";
+import Planet_4 from "../public/Standup.jpg";
+import Planet_5 from "../public/Workshop.jpg";
 import Planet_6 from "../public/planet-06.png";
 import Planet_7 from "../public/planet-07.png";
 import Planet_8 from "../public/planet-08.png";
@@ -13,53 +13,75 @@ import linkedin from "../public/linkedin.svg";
 import instagram from "../public/instagram.svg";
 import facebook from "../public/facebook.svg";
 
+/* Concerts
+Festivals
+Conferences and Seminars
+Exhibitions and Trade Shows
+Workshops and Training Sessions
+Sports Events and Tournaments
+Art and Theater Performances
+Comedy Shows and Stand-up Nights
+Food and Wine Festivals
+Charity Galas and Fundraisers */
+
+
 export const exploreWorlds = [
   {
     id: "world-1",
     imgUrl: Planet_1,
-    title: "The Hogwarts",
+    title: "Events and Festivals",
   },
   {
     id: "world-2",
     imgUrl: Planet_2,
-    title: "The Upside Down",
+    title: "Movie Screening and Cinemas",
   },
   {
     id: "world-3",
     imgUrl: Planet_3,
-    title: "Kadirojo Permai",
+    title: "Parties and DJs",
   },
   {
     id: "world-4",
     imgUrl: Planet_4,
-    title: "Paradise Island",
+    title: "Stand up and Comedy shows",
   },
   {
     id: "world-5",
     imgUrl: Planet_5,
-    title: "Hawkins Labs",
+    title: "Coferences, Workshops and Training sessions",
   },
 ];
 
 export const startingFeatures = [
-  "Find a world that suits you and you want to enter",
-  "Enter the world by reading Har Har Mahadev to be safe",
-  "No need to beat around the bush, just stay on the gas and have fun",
+  "Sign up for a free account",
+  "Set up your event page & launch ticket sales",
+  "Get paid fast as per your wish !!",
 ];
 
 export const newFeatures = [
   {
     imgUrl: vrpano,
-    title: "A new world",
+    title: "Event Pages",
     subtitle:
-      "we have the latest update with new world for you to try never mind",
+      "From seamless theming options to convenient booking processes, provide a user-friendly experience. Simplify event management, ensure personalized branding, and enhance customer engagement for successful events",
   },
   {
-    imgUrl: headset,
-    title: "More realistic",
+    imgUrl: vrpano,
+    title: "Admin Dashboard",
     subtitle:
-      "In the latest update, your eyes are narrow, making the world more realistic than ever",
+      "Efficiently manage events, tickets, attendees, and sales. Real-time analytics, promotional tools, and customization options for seamless event organization. Streamline operations, enhance attendee experiences, and boost revenue",
   },
+  {
+    imgUrl: vrpano,
+    title: "Payment Solutions",
+    subtitle:
+      "Conveniently choose from various payment methods, ensuring flexibility and ease of use. With secure and seamless transactions, attendees can confidently book tickets, making it the most cost-effective and user-friendly payment solution available",
+  },
+  
+  
+ 
+
 ];
 
 export const insights = [
