@@ -49,7 +49,7 @@ export const exploreWorlds = [
   {
     id: "world-5",
     imgUrl: Planet_5,
-    title: "Coferences, Workshops and Training sessions",
+    title: "Conferences, Workshops and Training sessions",
   },
 ];
 
