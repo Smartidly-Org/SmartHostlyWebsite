@@ -30,7 +30,7 @@ const Footer = () => (
             className="w-[24px] h-[24px] object-contain"
           />
           
-          <a href="mailto:info@smarthostly.com" class="font-normal text-[16px] text-white">
+          <a href="mailto:info@smartidly.com" class="font-normal text-[16px] text-white">
         Contact us
     </a>
         </button>

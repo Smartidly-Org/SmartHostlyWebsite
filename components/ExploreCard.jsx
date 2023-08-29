@@ -34,7 +34,7 @@ function sendQuoteEmail() {
   var encodedEmailBody = encodeURIComponent(emailBody);
 
   // Create the mailto link with the recipient email and the pre-fed email body
-  var mailtoLink = "mailto:info@smarthostly.com?subject=Quote Request&body=" + encodedEmailBody;
+  var mailtoLink = "mailto:info@smartidly.com?subject=Quote Request&body=" + encodedEmailBody;
 
   // Open the email client with the pre-fed information
   window.location.href = mailtoLink;

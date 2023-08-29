@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import styles from "../styles";
-import planet9 from "../public/Simss.png";
+import planet9 from "../public/Movie.jpg";
 import stamp from "../public/stamp1.png";
 import { fadeIn, staggerContainer, zoomIn } from "../utils/motion";
 import { TypingText, TitleText, NewFeatures } from "../components";
