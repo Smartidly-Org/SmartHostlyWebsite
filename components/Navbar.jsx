@@ -8,7 +8,6 @@ import search from "../public/search.svg";
 import menu from "../public/menu.svg";
 import logo from "../public/logo.png";
 
-import { Logo } from "vcc-ui";
 
 const Navbar = () => (
   // NOTE we can declare tags with motion like this for whichever tag we want to animate
@@ -33,9 +32,9 @@ const Navbar = () => (
 
       <div className="font-bold text-[24px] leading-[30px] text-white ">
         <Image
-        src={logo}
-        alt="logo-Icon"
-        className="w-[80%] h-[80%] object-contain"
+          src={logo}
+          alt="logo-Icon"
+          className="w-[80%] h-[80%] object-contain"
         />
       </div>
       {/* <Image
