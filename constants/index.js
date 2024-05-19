@@ -54,9 +54,9 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-  "Sign up for a free account",
-  "Set up your event page & launch ticket sales",
-  "Get paid fast as per your wish !!",
+  "Email: info@smarthostly.com",
+  "Any Social Media: @smarthostly",
+  "Phone: +46 734637445",
 ];
 
 export const newFeatures = [
@@ -78,9 +78,9 @@ export const newFeatures = [
     subtitle:
       "Conveniently choose from various payment methods, ensuring flexibility and ease of use. With secure and seamless transactions, attendees can confidently book tickets, making it the most cost-effective and user-friendly payment solution available",
   },
-  
-  
- 
+
+
+
 
 ];
 

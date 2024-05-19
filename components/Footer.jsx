@@ -8,10 +8,7 @@ import Image from "next/image";
 import headset from "../public/headset.svg";
 
 const Footer = () => (
-  <motion.footer
-    variants={footerVariants}
-    initial="hidden"
-    whileInView="show"
+  <footer
     className={`${styles.xPaddings} py-8 relative`}
   >
     <div className="footer-gradient" />
@@ -29,10 +26,10 @@ const Footer = () => (
             alt="headset"
             className="w-[24px] h-[24px] object-contain"
           />
-          
-          <a href="mailto:info@smartidly.com" class="font-normal text-[16px] text-white">
-        Contact us
-    </a>
+
+          <a href="/contact" class="font-normal text-[16px] text-white">
+            Contact us
+          </a>
         </button>
 
         <div className="flex flex-col">
@@ -41,7 +38,15 @@ const Footer = () => (
           <div className="flex items-center justify-between flex-wrap gap-4">
             <h4 className="font-extrabold text-[24px] text-white">Smarthostly</h4>
             <p className="font-normal text-[14px] text-white opacity-50">
-              Copyright © 2023 - Smarthostly. All rights reserved.
+              Copyright © 2024 - Smarthostly. All rights reserved.
+              <p> </p>
+              <a href="/terms" class="font-normal underline text-[16px] text-white">
+                Terms of Service
+              </a>
+              &nbsp; | &nbsp;
+              <a href="/privacy" class="font-normal underline text-[16px] text-white">
+                Privacy Policy
+              </a>
             </p>
 
             <div className="flex gap-4">
@@ -58,6 +63,6 @@ const Footer = () => (
         </div>
       </div>
     </div>
-  </motion.footer>
+  </footer>
 );
 export default Footer;
