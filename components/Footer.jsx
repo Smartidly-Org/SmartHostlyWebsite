@@ -38,7 +38,7 @@ const Footer = () => (
           <div className="flex items-center justify-between flex-wrap gap-4">
             <h4 className="font-extrabold text-[24px] text-white">Smarthostly</h4>
             <p className="font-normal text-[14px] text-white opacity-50">
-              Copyright © 2024 - Smarthostly. All rights reserved.
+              Copyright © 2024 - Smarthostly. DT Privacy Technologies AB. All rights reserved.
               <p> </p>
               <a href="/terms" class="font-normal underline text-[16px] text-white">
                 Terms of Service
